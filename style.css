@@ -1,0 +1,210 @@
+#menulink img{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+}
+#menulink a{
+
+    padding: 0%;
+    margin: 0%;
+}
+#navbar a{
+    padding: 15px;
+    font-size: 12pt;
+    font-family: 'Finger Paint', cursive;
+}
+#navbar ul li a:hover{
+    background-color: brown;
+    border-left: 1px dotted black;
+}
+#navbar{
+    background-color: rgba(21, 66, 45, 0.774);
+    position: sticky;
+    top: 0%;
+}
+#navbar li{
+    padding-left: 15px;
+}
+#navbar li a img{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+#homepagebody{
+    background:linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)) ,
+                url('images/homepagebg.jpeg') no-repeat center center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#homepagebody h2{
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    color:rgb(255, 32, 32);
+    font-size: 70pt;
+}
+#homepagebody img{
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+#homepagebody h3{
+    background-color: rgba(94, 59, 46, 0.295);
+    border-radius: 20px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    font-family: 'Finger Paint', cursive;
+    margin-bottom: 30px;
+
+}
+#homepagecollumn2 a{
+    font-size: 22pt;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 20px;
+}
+#homepagecollumn2 a:hover{
+    padding: 25px;
+    background-color: blueviolet;
+}
+#optionnav{
+    background-color: rgba(128, 128, 128, 0.753);
+    position: sticky;
+    top: 8%;
+}
+#optionnav ul li a:hover{
+    background-color: rgba(0, 255, 255, 0.582);
+    color: black;
+}
+#newclothes{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+                url('images/clothesstore.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+
+}
+#newclothes h3{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Rubik Wet Paint', cursive ;
+    font-size: 28pt;
+}
+#femaleware img, #menwear img{
+border-radius: 60px;
+text-align: center;
+padding: 20px;
+margin: 20px;
+}
+#femaleware a img:hover{
+    background-color: blueviolet;
+}
+#menwear a img:hover{
+    background-color: rgb(226, 43, 43);
+}
+#newshoes{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/shoesbg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#newphones h3,#newhouseapp h3,#newrealestate h3,#newcars h3,#newshoes h3{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Rubik Wet Paint', cursive ;
+    font-size: 28pt;
+}
+#newphones{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/phonestorebg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#newhouseapp{
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/homeappliancesbg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#newrealestate{
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/housesbg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#newcars{
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/carsalebg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+/*menu css*/
+#menufirstcol{
+    background-color: chocolate;
+    height: 100vh;
+    line-height: 2.0;
+    width: 30%;
+}
+#menufirstcol h2{
+    text-align: left;
+    color: aliceblue;
+    text-decoration: underline;
+}
+#menufirstcol ul li a{
+color: black;
+padding: 15px;
+font-size: 18pt;
+}
+#menufirstcol ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(100, 148, 237, 0.459);
+}
+#menu{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.616),rgba(144, 156, 34, 0.116)),
+    url('images/menusupermarketbg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+#menusecondcol h2{
+    text-align: center;
+    font-family: 'Rubik Wet Paint', cursive;
+    color:rgb(255, 0, 0);
+    font-size: 80pt;
+}
+#menusecondcol a{
+    text-align: center;
+    font-size: 22pt;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 20px;
+}
+#menusecondcol a:hover{
+    padding: 25px;
+    background-color: blueviolet;
+}
+#menusecondcol{
+    text-align: center;
+}
